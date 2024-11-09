@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+::-webkit-scrollbar {
+    width: 10px; /* Meningkatkan lebar untuk tampilan yang lebih baik */
+    height: 10px; /* Meningkatkan tinggi untuk tampilan yang lebih baik */
+}
+/* Track */
+::-webkit-scrollbar-track {
+    background: transparent;
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); /* Menambahkan shadow untuk transisi yang lebih halus */
+}
+
+::-webkit-scrollbar-thumb {
+    background: #c9c8c8;
+    border-radius: 15px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5); /* Menambahkan shadow untuk efek blending yang lebih halus */
+}
+ 
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}

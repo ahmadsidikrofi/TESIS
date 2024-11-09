@@ -1,0 +1,45 @@
+{
+  "expo": {
+    "name": "Flowbeat",
+    "slug": "Flowbeat",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.apk.flowbeat"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      "expo-font",
+      "expo-build-properties"
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "b8f97bba-005e-4ac9-8a23-f8bb1cc7d5c1"
+      }
+    },
+    "owner": "bli666",
+    "runtimeVersion": "appVersion",
+    "updates": {
+      "url": "https://u.expo.dev/b8f97bba-005e-4ac9-8a23-f8bb1cc7d5c1"
+    }
+  }
+}
